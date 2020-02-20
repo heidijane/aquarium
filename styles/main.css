@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.navigation {
+    margin: 2em;
+}
+
+.navigation__link {
+    padding: 0 1em 0 1em;
+}
+
+.fishList {
+    flex-basis: 65%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fish__image {
+    width: 8rem;
+    height: 8rem;
+}
+
+.tipList {
+    flex-basis: 20%;
+}
+
+.tip {
+    margin: 1rem 0 2rem 0;
+}
+
+.bordered {
+    border: 1px dashed goldenrod;
+}
