@@ -1,3 +1,7 @@
+body {
+    background: url("https://cdn.vox-cdn.com/thumbor/oZPo_nWh9lay5MOVnYEt4IMQ3sQ=/0x46:1100x779/1200x800/filters:focal(0x46:1100x779)/cdn.vox-cdn.com/imported_assets/1394795/underwater-swim-thru-bubbles_JPG.jpg") no-repeat center center fixed; 
+}
+
 .container {
     display: flex;
     flex-wrap: nowrap;
@@ -13,9 +17,17 @@
 }
 
 .fishList {
-    flex-basis: 65%;
+    background-color:white;
+    flex-basis: 80%;
     display: flex;
     flex-wrap: wrap;
+}
+
+.tipList {
+    background-color:white;
+    margin-left: 1em;
+    flex-basis: 20%;
+    min-width:200px;
 }
 
 .fish__image {
