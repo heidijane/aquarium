@@ -24,7 +24,8 @@ const initializeDetailButtonEvents = () => {
         'flarp',
         'jerry',
         'nightmare',
-        'kismet'
+        'kismet',
+        'sparky'
     ];
 
     for (const fish of fishArray) {
