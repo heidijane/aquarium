@@ -18,5 +18,20 @@
 }
 
 .tip {
-    margin: 1rem 0 2rem 0;
+    margin-bottom:1em;
 }
+
+ul {
+    padding-left:2rem;
+    list-style-type: none;
+    margin-bottom: 1em;
+  }
+  
+ul li {
+    padding-left: 2rem;
+    background-image: url('/images/fishicon.png');
+    background-position: 0 5px;
+    /* background-size: 1rem 1rem; */
+    background-repeat: no-repeat;
+}
+
