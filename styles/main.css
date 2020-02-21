@@ -2,10 +2,10 @@
 @import 'fish.css';
 @import 'tips.css';
 
-@import url('https://fonts.googleapis.com/css?family=Kanit:400,400i,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900&display=swap');
 
 body {
-    font-family: 'Kanit', Arial, Helvetica, sans-serif;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
     background: url("https://cdn.vox-cdn.com/thumbor/oZPo_nWh9lay5MOVnYEt4IMQ3sQ=/0x46:1100x779/1200x800/filters:focal(0x46:1100x779)/cdn.vox-cdn.com/imported_assets/1394795/underwater-swim-thru-bubbles_JPG.jpg") no-repeat center center fixed; 
 }
 
