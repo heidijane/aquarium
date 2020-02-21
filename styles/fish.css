@@ -1,5 +1,5 @@
 .fishList {
-    background-color: rgba(50, 46, 71, 0.75);
+    /* background-color: rgba(50, 46, 71, 0.75); */
     flex-basis: 80%;
     display: flex;
     flex-wrap: wrap;
