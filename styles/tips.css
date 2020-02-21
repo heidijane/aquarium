@@ -10,6 +10,13 @@
     flex-basis: 20%;
 }
 
+.tipTitle {
+    margin:0;
+    font-size:1.5em;
+    font-family: 'Permanent Marker', serif;
+    text-align: center;
+}
+
 .tip {
     margin: 1rem 0 2rem 0;
 }
