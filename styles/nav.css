@@ -1,7 +1,29 @@
 .navigation {
-    margin: 2em;
+    padding: 1em 0;
 }
 
 .navigation__link {
-    padding: 0 1em 0 1em;
+    margin: 0 1em 1em 0;
+    padding: 1em;
+    background-color:rgba(21, 131, 175, .7);
+    font-weight: 900;
+    font-size: 1em;
+    letter-spacing: .1em;;
+}
+
+a:link {
+    color: rgb(28, 24, 82);
+    text-decoration:none;
+}
+
+a:visited {
+    color:  rgb(28, 24, 82);
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: blueviolet;
 }
