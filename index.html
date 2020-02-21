@@ -18,42 +18,76 @@
 
     <main class="container">
         <article class="fishList bordered">
-            <section class="fish">
+            <div class="fish">
+                <div>
+                    <img class="fish__image"
+                        src="https://3.imimg.com/data3/IW/XT/GLADMIN-105863/fish-125x125.jpg"
+                        alt="">
+                </div>
+                <div class="fish__name">Bart</div>
+                <div>
+                    <button id="button--bart">Details</button>
+                </div>
+            
+                <dialog class="dialog--fish" id="details--bart">
+                    <div>Species: Orange Clownfish</div>
+                    <div>Location: Caribbean</div>
+                    <div>Length: 3</div>
+                    <div>Food: Algae, crustaceans</div>
+            
+                    <button class="button--close" id="close-bart">Close Dialog</button>
+                </dialog>
+            </div>
+            <!--<section class="fish">
                 <img class="fish__image" src="https://i.ytimg.com/vi/z_XlTRYLZ1Q/maxresdefault.jpg" />
-                <div class="fish__details">
+                <div class="fish__name">Betty</div>
+                <div>
+                    <button id="button--betty">Details</button>
+                </div>
+                <dialog class="dialog--fish" id="#button--betty">
                     <ul>
-                        <li>Name: Betty</li>
                         <li>Length: 2 ft</li>
                         <li>Species: Longtooth Barracuda</li>
                         <li>Food: Squid</li>
                         <li>Harvested at: Cumberland River</li>
-                    </ul>
-                </div>
+                    </ul>            
+                    <button class="button--close" id="close-betty">Close Dialog</button>
+                </dialog>
             </section>
+
             <section class="fish">
                 <img class="fish__image" src="https://cichlidtips.com/wp-content/uploads/2018/10/clown-loach-2-1280x720.jpg" />
-                <div class="fish__details">
+                <div class="fish__name">Sparky</div>
+                <div>
+                    <button id="button--sparky">Details</button>
+                </div>
+                <dialog class="dialog--sparky" id="details--sparky">
                     <ul>
-                        <li>Name: Sparky</li>
-                        <li>Length: 3 in</li>
+                        <li>Length: 6 in</li>
                         <li>Species: Clown Loach</li>
                         <li>Food: Snails</li>
                         <li>Harvested at: Sumatra</li>
-                    </ul>
-                </div>
+                    </ul>            
+                    <button class="button--close" id="close-sparky">Close Dialog</button>
+                </dialog>
             </section>
+
             <section class="fish">
                 <img class="fish__image" src="https://animals.net/wp-content/uploads/2018/06/Sea-Dragon-2-650x425.jpg" />
-                <div class="fish__details">
+                <div class="fish__name">Bob</div>
+                <div>
+                    <button id="button--bob">Details</button>
+                </div>
+                <dialog class="dialog--bob" id="details--bob">
                     <ul>
-                        <li>Name: Bob</li>
                         <li>Length: 8 in</li>
                         <li>Species: Leafy Sea Dragon</li>
-                        <li>Food: plankton</li>
+                        <li>Food: Plankton</li>
                         <li>Harvested at: South Australia</li>
-                    </ul>
-                </div>
-            </section>
+                    </ul>            
+                    <button class="button--close" id="close-bob">Close Dialog</button>
+                </dialog>
+            </section>-->
         </article>
         <aside class="tipList bordered">
             <header>
@@ -66,7 +100,7 @@
     </main>
 
 
-    <script type="module" src="./scripts/main.js"></script>
+    <script type="module" src="scripts/main.js"></script>
 </body>
 
 </html>
