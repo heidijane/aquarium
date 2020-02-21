@@ -16,40 +16,48 @@ const initializeDetailButtonEvents = () => {
 
     // You will be writing code below this line
 
-    // Show Bart's details when the button is clicked
-    document.querySelector("#button--bart").addEventListener(
-        "click",
-        theClickEvent => {
-            const theDialog = document.querySelector("#details--bart")
-            theDialog.showModal()
-        }
-    )
-    // Show Betty's details when the button is clicked
-    document.querySelector("#button--betty").addEventListener(
-        "click",
-        theClickEvent => {
-            const theDialog = document.querySelector("#details--betty")
-            theDialog.showModal()
-        }
-    )
+    const fishArray = [
+        'betty',
+        'goober',
+        'seabiscuit'
+    ];
 
-     // Show Goober's details when the button is clicked
-     document.querySelector("#button--goober").addEventListener(
-        "click",
-        theClickEvent => {
-            const theDialog = document.querySelector("#details--goober")
-            theDialog.showModal()
+    for (const fish of fishArray) {
+            document.querySelector("#button--"+fish).addEventListener(
+                "click",
+                theClickEvent => {
+                    const theDialog = document.querySelector("#details--"+fish)
+                    theDialog.showModal()
+                }
+            )
         }
-    )
+    
+    // // Show Betty's details when the button is clicked
+    // document.querySelector("#button--betty").addEventListener(
+    //     "click",
+    //     theClickEvent => {
+    //         const theDialog = document.querySelector("#details--betty")
+    //         theDialog.showModal()
+    //     }
+    // )
 
-    // Show Goober's details when the button is clicked
-    document.querySelector("#button--seabiscuit").addEventListener(
-        "click",
-        theClickEvent => {
-            const theDialog = document.querySelector("#details--seabiscuit")
-            theDialog.showModal()
-        }
-    )
+    //  // Show Goober's details when the button is clicked
+    //  document.querySelector("#button--goober").addEventListener(
+    //     "click",
+    //     theClickEvent => {
+    //         const theDialog = document.querySelector("#details--goober")
+    //         theDialog.showModal()
+    //     }
+    // )
+
+    // // Show Goober's details when the button is clicked
+    // document.querySelector("#button--seabiscuit").addEventListener(
+    //     "click",
+    //     theClickEvent => {
+    //         const theDialog = document.querySelector("#details--seabiscuit")
+    //         theDialog.showModal()
+    //     }
+    // )
 
 }
 
