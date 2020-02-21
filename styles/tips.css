@@ -1,0 +1,14 @@
+.tipList {
+    background-color:white;
+    margin-left: 1em;
+    flex-basis: 20%;
+    min-width:200px;
+}
+
+.tipList {
+    flex-basis: 20%;
+}
+
+.tip {
+    margin: 1rem 0 2rem 0;
+}

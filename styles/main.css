@@ -1,3 +1,7 @@
+@import 'nav.css';
+@import 'fish.css';
+@import 'tips.css';
+
 body {
     background: url("https://cdn.vox-cdn.com/thumbor/oZPo_nWh9lay5MOVnYEt4IMQ3sQ=/0x46:1100x779/1200x800/filters:focal(0x46:1100x779)/cdn.vox-cdn.com/imported_assets/1394795/underwater-swim-thru-bubbles_JPG.jpg") no-repeat center center fixed; 
 }
@@ -6,41 +10,6 @@ body {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-}
-
-.navigation {
-    margin: 2em;
-}
-
-.navigation__link {
-    padding: 0 1em 0 1em;
-}
-
-.fishList {
-    background-color:white;
-    flex-basis: 80%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.tipList {
-    background-color:white;
-    margin-left: 1em;
-    flex-basis: 20%;
-    min-width:200px;
-}
-
-.fish__image {
-    width: 8rem;
-    height: 8rem;
-}
-
-.tipList {
-    flex-basis: 20%;
-}
-
-.tip {
-    margin: 1rem 0 2rem 0;
 }
 
 .bordered {
