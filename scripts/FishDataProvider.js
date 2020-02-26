@@ -82,5 +82,5 @@ const fishCollection = [
 ];
 
 export const useFish = () => {
-    return fishCollection;
+    return fishCollection.slice(); //slice() creates a copy of the array so you aren't exporting the actual array
 }
