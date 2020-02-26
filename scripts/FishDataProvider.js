@@ -70,6 +70,14 @@ const fishCollection = [
         diet: ["fish flakes", "bloodworms", "sweet potatoes", "socks"],
         location: "Peru",
         image: "neontetra.jpg"
+    },
+    {
+        name: "Aquaman",
+        species: "Atlantean",
+        length: "6 feet, 1 inch",
+        diet: ["fish and chips"],
+        location: "Amnesty Bay",
+        image: "aquaman.jpg"
     }
 ];
 
