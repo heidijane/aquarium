@@ -16,27 +16,27 @@ const initializeDetailButtonEvents = () => {
 
     // You will be writing code below this line
 
-    const fishArray = [
-        'betty',
-        'goober',
-        'seabiscuit',
-        'frank',
-        'flarp',
-        'jerry',
-        'nightmare',
-        'kismet',
-        'sparky'
-    ];
+    // const fishArray = [
+    //     'betty',
+    //     'goober',
+    //     'seabiscuit',
+    //     'frank',
+    //     'flarp',
+    //     'jerry',
+    //     'nightmare',
+    //     'kismet',
+    //     'sparky'
+    // ];
 
-    for (const fish of fishArray) {
-            document.querySelector("#button--"+fish).addEventListener(
-                "click",
-                theClickEvent => {
-                    const theDialog = document.querySelector("#details--"+fish)
-                    theDialog.showModal()
-                }
-            )
-        }
+    // for (const fish of fishArray) {
+    //         document.querySelector("#button--"+fish).addEventListener(
+    //             "click",
+    //             theClickEvent => {
+    //                 const theDialog = document.querySelector("#details--"+fish)
+    //                 theDialog.showModal()
+    //             }
+    //         )
+    //     }
 
 }
 
