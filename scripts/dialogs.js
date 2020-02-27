@@ -1,4 +1,4 @@
-import { useFish } from "./FishDataProvider.js"
+import { useFish } from "./fish/FishDataProvider.js"
 
 const initializeDetailButtonEvents = () => {
     // CAN'T TOUCH THIS - START
