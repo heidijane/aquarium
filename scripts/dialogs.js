@@ -1,3 +1,5 @@
+import { useFish } from "./FishDataProvider.js"
+
 const initializeDetailButtonEvents = () => {
     // CAN'T TOUCH THIS - START
     const allCloseButtons = document.querySelectorAll(".button--close")
@@ -10,33 +12,38 @@ const initializeDetailButtonEvents = () => {
                 dialogElement.close()
             }
         )
-    }
+    }    
+    
     // CAN'T TOUCH THIS - END
 
 
     // You will be writing code below this line
 
     // const fishArray = [
-    //     'betty',
-    //     'goober',
-    //     'seabiscuit',
-    //     'frank',
-    //     'flarp',
-    //     'jerry',
-    //     'nightmare',
-    //     'kismet',
-    //     'sparky'
+    //     'Betty',
+    //     'Goober',
+    //     'Seabiscuit',
+    //     'Frank',
+    //     'Flarp',
+    //     'Jerry',
+    //     'Nightmare',
+    //     'Kismet',
+    //     'Sparky'
     // ];
 
-    // for (const fish of fishArray) {
-    //         document.querySelector("#button--"+fish).addEventListener(
-    //             "click",
-    //             theClickEvent => {
-    //                 const theDialog = document.querySelector("#details--"+fish)
-    //                 theDialog.showModal()
-    //             }
-    //         )
-    //     }
+    const fishes = useFish();
+
+    for (const fish of fishes) {
+              document.querySelector("#button--"+fish.name).addEventListener(
+                "click",
+                theClickEvent => {
+                    const theDialog = document.querySelector("#details--"+fish.name)
+                    theDialog.showModal()
+                }
+            )
+        }
+
+
 
 }
 
