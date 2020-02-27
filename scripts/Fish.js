@@ -6,7 +6,7 @@ const Fish = (fish) => {
         <section class="fish">
                     <div>
                         <img class="fish__image"
-                            src="${fish.image}"
+                            src="images/${fish.image}"
                             alt="${fish.name} the ${fish.species}">
                     </div>
                     <div class="fish__name">${fish.name}</div>
@@ -27,7 +27,7 @@ const Fish = (fish) => {
                             </tr>
                             <tr>
                                 <td>Diet</td>
-                                <td>${fish.food.join(",")}</td>
+                                <td>${fish.diet.join(",")}</td>
                             </tr>
                             <tr>
                                 <td>Location</td>
