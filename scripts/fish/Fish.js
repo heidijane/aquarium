@@ -15,7 +15,7 @@ const Fish = (fish) => {
                     </div>
                 
                     <dialog class="dialog--fish" id="details--${fish.name}">
-                        <div class="dialog__fishName">Betty</div>
+                        <div class="dialog__fishName">${fish.name}</div>
                         <table>
                             <tr>
                                 <td>Length</td>
