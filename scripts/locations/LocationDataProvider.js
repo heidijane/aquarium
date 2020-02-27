@@ -1,4 +1,4 @@
-cosnt locationCollection = [
+const locationCollection = [
     {
         name: "Cumberland River",
         image: "cumberland_river.jpg",
@@ -15,7 +15,7 @@ cosnt locationCollection = [
         name: "Great Australian Bight",
         image: "australia.jpg",
         country: "Australia",
-        tips: ["You may see a southern right whale whale on your dive!"];
+        tips: ["You may see a southern right whale whale on your dive!"]
     },
     {
         name: "Florida Keys",
@@ -48,3 +48,7 @@ cosnt locationCollection = [
         tips: ["Don't forget to checkout the Curry Lighthouse, the famous local landmark!"]
     }
 ];
+
+export const getLocations = () => {
+    return locationCollection.slice();
+}
