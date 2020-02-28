@@ -7,9 +7,8 @@
 .location {
     width: 300px;
     height: 300px;
-    perspective: 600px;
-    margin:2em;
     text-align: center;
+    padding: 1em;
 }
 
 .location__name {
@@ -18,8 +17,16 @@
   
 }
 
+.location__country {
+    font-family: 'Permanent Marker', serif;
+    font-size:1.5em;
+  
+}
+
+
 .location__image {
     max-width: 300px;
+    width: 100%;
 }
 
 .card {
@@ -45,11 +52,18 @@
 
 .card__face--front {
     background: white;
-    padding: 1em;
+    -webkit-box-shadow: 0px 11px 7px -7px rgba(0,0,0,0.63); 
+    box-shadow: 0px 11px 7px -7px rgba(0,0,0,0.63);
 }
 
 .card__face--back {
-    background: lightgray;
+    background: #F9F9F9;
     transform: rotateY(180deg);
+    -webkit-box-shadow: 0px 11px 7px -7px rgba(0,0,0,0.63); 
+    box-shadow: 0px 11px 7px -7px rgba(0,0,0,0.63);
+}
+
+.card__spacing {
     padding: 1em;
+    overflow: hidden;
 }
