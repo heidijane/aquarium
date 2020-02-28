@@ -12,9 +12,7 @@ const Fish = (fish) => {
                     <div class="fish__name">${fish.name}</div>
                     <div>
                         <button id="button--${fish.name}">🐟 Details</button>
-                    </div>
-                
-                    <dialog class="dialog--fish" id="details--${fish.name}">
+                        <dialog class="dialog--fish" id="details--${fish.name}">
                         <div class="dialog__fishName">${fish.name}</div>
                         <table>
                             <tr>
@@ -36,6 +34,7 @@ const Fish = (fish) => {
                         </table>           
                         <button class="button--close" id="close-${fish.name}">X</button>
                     </dialog>
+                    </div>
                 </section>
     `
 }
