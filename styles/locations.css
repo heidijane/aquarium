@@ -1,0 +1,55 @@
+.locationsList {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.location {
+    width: 300px;
+    height: 300px;
+    perspective: 600px;
+    margin:2em;
+    text-align: center;
+}
+
+.location__name {
+    font-family: 'Permanent Marker', serif;
+    font-size:1.5em;
+  
+}
+
+.location__image {
+    max-width: 300px;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
+}
+
+.card.is-flipped {
+    transform: rotateY(180deg);
+}
+
+.card__face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card__face--front {
+    background: white;
+    padding: 1em;
+}
+
+.card__face--back {
+    background: lightgray;
+    transform: rotateY(180deg);
+    padding: 1em;
+}

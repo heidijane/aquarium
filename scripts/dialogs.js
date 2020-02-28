@@ -19,18 +19,6 @@ const initializeDetailButtonEvents = () => {
 
     // You will be writing code below this line
 
-    // const fishArray = [
-    //     'Betty',
-    //     'Goober',
-    //     'Seabiscuit',
-    //     'Frank',
-    //     'Flarp',
-    //     'Jerry',
-    //     'Nightmare',
-    //     'Kismet',
-    //     'Sparky'
-    // ];
-
     const fishes = useFish();
 
     for (const fish of fishes) {
