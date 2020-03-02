@@ -11,9 +11,6 @@ const Fish = (fish) => {
                                 alt="${fish.name} the ${fish.species}">
                         </div>
                         <div class="fish__name">${fish.name}</div>
-                        <div>
-                            <!--<button id="button--${fish.name}">🐟 Details</button>-->
-                        </div>
                     </section>
             <dialog class="dialog--fish" id="details--${fish.name}">
                         <div class="dialog__fishName">${fish.name}</div>

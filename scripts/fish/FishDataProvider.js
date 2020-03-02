@@ -80,6 +80,37 @@ const fishCollection = [{
     }
 ];
 
+export const mostHolyFish = () => {
+    // 3, 6, 9, 12, etc... fish
+    const holyFish = [];
+    for (const fish of fishCollection) {
+        if (fish.length % 3 === 0) {
+            holyFish.push(fish);
+        }
+    }
+    return holyFish
+}
+
+export const soldierFish = () => {
+    const soldierFish = [];
+    for (const fish of fishCollection) {
+        if (fish.length % 5 === 0) {
+            soldierFish.push(fish);
+        }
+    }
+    return soldierFish
+}
+
+export const nonHolyFish = () => {
+    const regularFish = [];
+    for (const fish of fishCollection) {
+        if (fish.length % 3 !== 0 && fish.length % 5 !== 0) {
+            regularFish.push(fish);
+        }
+    }
+    return regularFish
+}
+
 export const useFish = () => {
     return fishCollection.slice(); //slice() creates a copy of the array so you aren't exporting the actual array
 }
