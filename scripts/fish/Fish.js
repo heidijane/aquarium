@@ -20,7 +20,7 @@ const Fish = (fish) => {
                         <table>
                             <tr>
                                 <td>Length</td>
-                                <td>${fish.length}</td>
+                                <td>${fish.length} inches</td>
                             </tr>
                             <tr>
                                 <td>Species</td>

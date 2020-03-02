@@ -1,8 +1,7 @@
-const fishCollection = [
-    {
+const fishCollection = [{
         name: "Betty",
         species: "Longtooth Barracuda",
-        length: "2 feet",
+        length: 25,
         diet: ["squid", "humans"],
         location: "Cumberland River",
         image: "betty.jpg"
@@ -10,7 +9,7 @@ const fishCollection = [
     {
         name: "Goober",
         species: "Clown Loach",
-        length: "7 inches",
+        length: 7,
         diet: ["snails", "sinking pellets"],
         location: "Sumatra",
         image: "clownloach.jpg"
@@ -18,7 +17,7 @@ const fishCollection = [
     {
         name: "Seabiscuit",
         species: "Leafy Sea Dragon",
-        length: "8 inches",
+        length: 9,
         diet: ["plankton"],
         location: "South Australia",
         image: "seadragon.jpg"
@@ -26,7 +25,7 @@ const fishCollection = [
     {
         name: "Frank",
         species: "Hammerhead Shark",
-        length: "15 feet",
+        length: 185,
         diet: ["fish"],
         location: "Florida Keys",
         image: "hammerhead.jpg"
@@ -34,7 +33,7 @@ const fishCollection = [
     {
         name: "Flarp",
         species: "Blobfish",
-        length: "11 inches",
+        length: 11,
         diet: ["???"],
         location: "Tasmania",
         image: "blobfish.jpg"
@@ -42,7 +41,7 @@ const fishCollection = [
     {
         name: "Jerry",
         species: "Longhorn Cowfish",
-        length: "20 inches",
+        length: 20,
         diet: ["crustaceans", "small fish", "jellyfish"],
         location: "Ryukyu Islands",
         image: "cowfish.jpg"
@@ -50,7 +49,7 @@ const fishCollection = [
     {
         name: "Nightmare",
         species: "Anglerfish",
-        length: "5 inches",
+        length: 5,
         diet: ["your soul"],
         location: "Deep Sea",
         image: "anglerfish.jpg"
@@ -58,7 +57,7 @@ const fishCollection = [
     {
         name: "Kismet",
         species: "Prairie Dog Fish",
-        length: "11 inches",
+        length: 12,
         diet: ["timothy hay", "mealworms", "sweet potatoes", "socks"],
         location: "Texas",
         image: "kismet.jpg"
@@ -66,7 +65,7 @@ const fishCollection = [
     {
         name: "Sparky",
         species: "Neon Tetra",
-        length: "3/4 inch",
+        length: 1,
         diet: ["fish flakes", "bloodworms", "sweet potatoes", "socks"],
         location: "Peru",
         image: "neontetra.jpg"
@@ -74,7 +73,7 @@ const fishCollection = [
     {
         name: "Aquaman",
         species: "Atlantean",
-        length: "6 feet, 1 inch",
+        length: 73,
         diet: ["fish and chips"],
         location: "Amnesty Bay",
         image: "aquaman.jpg"
