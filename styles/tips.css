@@ -1,9 +1,9 @@
 .tipList {
-    background-color: rgba(255, 255, 255, .75);
+    background-color: rgba(255, 255, 255, .6);
     margin-left: 1em;
     flex-basis: 20%;
-    min-width:200px;
-    padding:.5em;
+    min-width: 200px;
+    padding: .5em;
 }
 
 .tipList {
@@ -11,22 +11,22 @@
 }
 
 .tipTitle {
-    margin:0;
-    font-size:1.5em;
+    margin: 0;
+    font-size: 1.5em;
     font-family: 'Permanent Marker', serif;
     text-align: center;
 }
 
 .tip {
-    margin-bottom:1em;
+    margin-bottom: 1em;
 }
 
 ul {
-    padding-left:2rem;
+    padding-left: 2rem;
     list-style-type: none;
     margin-bottom: 1em;
-  }
-  
+}
+
 ul li {
     padding-left: 2rem;
     background-image: url('/images/fishicon.png');
@@ -34,4 +34,3 @@ ul li {
     /* background-size: 1rem 1rem; */
     background-repeat: no-repeat;
 }
-

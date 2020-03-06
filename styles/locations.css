@@ -1,5 +1,5 @@
 .locationsList {
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -13,20 +13,26 @@
 
 .location__name {
     font-family: 'Permanent Marker', serif;
-    font-size:1.5em;
-  
+    font-size: 1.5em;
 }
 
 .location__country {
     font-family: 'Permanent Marker', serif;
-    font-size:1.5em;
-  
+    font-size: 1.5em;
 }
-
 
 .location__image {
     max-width: 300px;
     width: 100%;
+}
+
+.location__tips {
+    text-align: left;
+    margin-left: -1em;
+}
+
+.location__tips li {
+    margin-bottom: 1em;
 }
 
 .card {
@@ -52,15 +58,15 @@
 
 .card__face--front {
     background: white;
-    -webkit-box-shadow: 0px 11px 7px -7px rgba(0,0,0,0.63); 
-    box-shadow: 0px 11px 7px -7px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 0px 11px 7px -7px rgba(0, 0, 0, 0.63);
+    box-shadow: 0px 11px 7px -7px rgba(0, 0, 0, 0.63);
 }
 
 .card__face--back {
     background: #F9F9F9;
     transform: rotateY(180deg);
-    -webkit-box-shadow: 0px 11px 7px -7px rgba(0,0,0,0.63); 
-    box-shadow: 0px 11px 7px -7px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 0px 11px 7px -7px rgba(0, 0, 0, 0.63);
+    box-shadow: 0px 11px 7px -7px rgba(0, 0, 0, 0.63);
 }
 
 .card__spacing {
